@@ -74,6 +74,12 @@
     }
 }
 
+@media screen and (min-width: 2000px){
+    .recipes {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media screen and (max-width: 900px){
     .recipes {
         grid-template-columns: 1fr;
