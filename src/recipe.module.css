@@ -1,0 +1,39 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 20px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: .75rem 0;
+}
+
+.title {
+    padding-bottom: .5rem;
+}
+
+.calories {
+    font-weight: 700;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.item {
+    padding: .25rem 0;
+}
+
+.item::before {
+    content: '\1F372';
+    padding-right: .5rem;
+}
